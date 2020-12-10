@@ -1,0 +1,29 @@
+{
+    "intents": {
+        "`hello": {
+            "examples": ["Hello", "Hi", "What's up", "Good day"],
+            "responses": ["What do you need?", "Is that you? Well, hi", "You want to talk?", "I'm already hate you"]
+        },
+        "bye": {
+            "examples": ["Bye", "Good bye", "See you"],
+            "responses": ["Ok, bye", "See you, when I see you", "Finally, that's all"]
+        },
+        "play": {
+            "examples": ["I want to play", "Let's play a game", "Can you play with me", "Game", "Let's play"],
+            "responses": ["glhf"]
+        },
+        "story": {
+            "examples":["Tell me story", "Do you know something", "Tell me story", "Tell me something", "What do you know"],
+            "responses": ["Some story"]
+        },
+        "help": {
+            "examples": ["I need help", "What do you can", "Can you help", "Tell me about yourself"],
+            "responses": ["Bot help"]
+        }
+    },
+
+    "fail_phrases": [
+        "Spek english, please", "Sorry, I don't understand you", "Whaaat? Speak loudly, please",
+        "You know what? I... dunno"
+    ]
+}
